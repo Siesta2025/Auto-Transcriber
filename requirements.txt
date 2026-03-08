@@ -1,0 +1,14 @@
+# Core dependencies
+yt-dlp>=2024.0.0
+openai-whisper>=20231117
+torch>=2.0.0
+gradio>=4.0.0
+
+# Optional: For faster model downloads
+huggingface-hub>=0.19.0
+
+# System requirements:
+# - FFmpeg must be installed and in PATH
+# - For GPU acceleration: PyTorch with CUDA support
+#   RTX 40 series and older: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+#   RTX 5060 (Blackwell): pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
